@@ -9,7 +9,10 @@
 /* HEADER */
 
 header {
-    text-align: right;
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
 }   
 
 header .menu li {
@@ -37,17 +40,37 @@ h2 {
     font-size: 40px;
 }
 
+.shoes {
+    font-family: "Rubik Mono One";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first, .second {
+    color: yellow;
+}
+
+.third {
+    color: green;
+}
+
 /* First Block */
 
 .first {
     background-color: red;
 }
 
-.shoes {
-    font-family: "Rubik Mono One";
-    color: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Second Block */
+
+.second {
+    background-color: green;
 }
+
+/* Third Block */
+
+.third {
+    background-color: yellow;
+}
+

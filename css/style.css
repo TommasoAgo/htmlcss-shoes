@@ -10,14 +10,16 @@
 
 header {
     text-align: right;
-}
+}   
 
 header .menu li {
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
     background-color: white;
     border-radius: 50%;
     font-family: "Rubik Mono One";
+    border: 2px solid black;
+    margin: 20px;
 }
 
 /* MAIN */

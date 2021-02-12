@@ -22,8 +22,9 @@ header .menu li {
     background-color: white;
     border-radius: 50%;
     font-family: "Rubik Mono One";
-    border: 2px solid black;
+    border: 2px black;
     margin: 20px;
+    box-shadow: 1px 1px 3px black;
 }
 
 /* MAIN */
